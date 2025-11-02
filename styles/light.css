@@ -7,11 +7,9 @@
   --accent-color: #FFC2E6;
   --decoration-color-hover: #32312D66;
   --detalis-color: #353430;
-
   --background-image: url('../images/cover-image-light.png');
-
   --font-family: 'IBM Plex mono';
-  --font-size: 18px;  
+  --font-size: 18px;
 }
 
 @media (prefers-color-scheme: light) {
@@ -23,11 +21,9 @@
     --accent-color: #FFC2E6;
     --decoration-color-hover: #32312D66;
     --detalis-color: #353430;
-
     --background-image: url('../images/cover-image-light.png');
-
     --font-family: 'IBM Plex mono';
-    --font-size: 18px;  
+    --font-size: 18px;
   }
 }
 
