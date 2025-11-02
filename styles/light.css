@@ -1,9 +1,3 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
   --decoration-color: #FF8DCB;
   --text-color: #353430;
@@ -20,8 +14,6 @@
   --font-size: 18px;  
 }
 
-/* Остальные стили, только при необходимости */
-
 @media (prefers-color-scheme: light) {
   :root {
     --decoration-color: #FF8DCB;
@@ -37,10 +29,6 @@
     --font-family: 'IBM Plex mono';
     --font-size: 18px;  
   }
-}
-
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
 }
 
 .theme-light .rec {

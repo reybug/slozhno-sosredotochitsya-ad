@@ -1,26 +1,26 @@
 .page {
-  background-color: var(--bg-color, #000028);
-  background-image: var(
-		--background-image,
-		url('../images/cover-image-dark.png')
-	);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+	background-color: var(--bg-color, #000028);
+	background-image: var(
+			--background-image,
+			url('../images/cover-image-dark.png')
+		);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 
-  font-family: var(--font-family, 'IBM Plex mono', monospace);
+  	font-family: var(--font-family, 'IBM Plex mono', monospace);
 	font-size: var(--font-size, 18px);
-  color: var(--text-color, #f1b2ce);
-  font-weight: normal;
+  	color: var(--text-color, #f1b2ce);
+  	font-weight: normal;
 }
 
 .header {
-  display: grid;
-  position: relative;
-  grid-template-rows: 1fr min-content 1fr;
-  padding: 10px;
-  block-size: 100vh;
+	display: grid;
+	position: relative;
+	grid-template-rows: 1fr min-content 1fr;
+	padding: 10px;
+	block-size: 100vh;
 }
 
 .rec {
@@ -73,18 +73,18 @@
 }
 
 .header__theme-menu {
-  margin-top: 55px;
-  justify-self: end;
+	margin-top: 55px;
+	justify-self: end;
 }
 
 .header__theme-menu-list {
-  inline-size: 230px;
-  display: grid;
-  justify-items: end;
-  height: 26px;
-  grid-template-rows: repeat(3, 1fr);
-  gap: 10px;
-  color: var(--detalis-color, #ff0070);
+	inline-size: 230px;
+	display: grid;
+	justify-items: end;
+	height: 26px;
+	grid-template-rows: repeat(3, 1fr);
+	gap: 10px;
+	color: var(--detalis-color, #ff0070);
 }
 
 .header__theme-menu-button {
@@ -127,17 +127,17 @@
 
 .logo-title {
 	line-height: 83%;
-  color: var(--accent-color, #db00ff);
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  	color: var(--accent-color, #db00ff);
+  	font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
 
 .header-title {
-  text-shadow: 4px 4px 0 var(--decoration-color, #FF0070);
+  	text-shadow: 4px 4px 0 var(--decoration-color, #FF0070);
 }
 
 .main {
-  padding: 40px 10px;
-  background-color: var(--bg-color, #000028);
+  	padding: 40px 10px;
+  	background-color: var(--bg-color, #000028);
 }
 .section {
 	display: grid;
@@ -150,13 +150,13 @@
 }
 
 .section-title {
-  font-size: var(--font-size, 18px);
-  color: var(--section-title-color, #ff0070);
+  	font-size: var(--font-size, 18px);
+  	color: var(--section-title-color, #ff0070);
 }
 
 .list {
-  display: grid;
-  gap: 20px;
+  	display: grid;
+  	gap: 20px;
 }
 
 .article-title {
