@@ -226,8 +226,6 @@
 	text-shadow: 2px 2px 0 var(--decoration-color, #ff0070);
 }
 
-/*Медиа для адаптивности */
-
 @media (width >= 768px) {
 	.header {
 		padding: 20px 20px 20px 0;
@@ -308,6 +306,7 @@
 		grid-column: 2 / 4;
 		grid-row: 3 / 4;
 	}
+
 	.footer-title {
 		font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 	}
